@@ -1,0 +1,12 @@
+git的使用
+//把github上面的仓库克隆到本地
+git clone [github仓库]
+
+//把项目文件夹下面的文件都添加进来
+ git add .
+
+//提交说明，准备提交暂存区中的更改的已跟踪文件
+git commit -m "你的信息"
+
+//把本地仓库push到github上面
+git push -u origin master
